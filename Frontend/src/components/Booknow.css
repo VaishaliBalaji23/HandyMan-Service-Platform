@@ -1,0 +1,74 @@
+.book-now-container {
+  width: 40% ; /* smaller width */
+  margin: 0;
+  padding: 30px;
+  background: #f8fafc; /* light gray */
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+}
+
+
+/* Page background */
+.booknow-page {
+  background-color: #1E293B; /* Dark slate background */
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #1E293B; /* Dark text inside light form */
+  margin-bottom: 20px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #334155; /* Slightly darker gray-blue */
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.booking-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .book-now-container {
+    padding: 15px;
+  }
+}

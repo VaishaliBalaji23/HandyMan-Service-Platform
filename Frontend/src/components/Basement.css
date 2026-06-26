@@ -1,0 +1,124 @@
+/* General Page Layout */
+.concrete-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #111; /* dark background for basement vibe */
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo Area */
+.logo-wrap {
+  background: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+.company-logo {
+  max-height: 70px;
+}
+
+/* Hero Band */
+.hero-band {
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero-title {
+  font-size: 3rem;
+  margin: 0;
+  color: #f9f9f9;
+}
+.hero-sub {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+/* Main Content Dark Section */
+.main-dark {
+  background: #1a1a1a;
+  padding: 60px 20px;
+}
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+.content-left {
+  flex: 1 1 55%;
+}
+.content-left h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.content-left h3 {
+  font-size: 1.3rem;
+  margin: 25px 0 15px;
+  color: #ffcc00;
+}
+.content-left p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+.service-list {
+  list-style: disc;
+  padding-left: 20px;
+  color: #eee;
+}
+.service-list li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Right Column Images */
+.content-right {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.side-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+
+/* CTA Section */
+.cta-band {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.cta-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #111;
+}
+.cta-link {
+  color: #e67e22;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.cta-link:hover {
+  color: #c0392b;
+}
+
+/* Footer */
+.service-footer {
+  background: #222;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer-container h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+.footer-container p {
+  margin: 5px 0;
+  color: #bbb;
+}

@@ -1,0 +1,51 @@
+.about-section {
+  background-color: #f8fbff; /* Matches service section */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 28px;
+  color: #004aad;
+  font-weight: bold;
+  margin: 25px 0 15px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.about-values {
+      font-size: 16px;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about-values li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #1d9bf0;
+  margin-right: 12px;
+  font-size: 20px;
+}

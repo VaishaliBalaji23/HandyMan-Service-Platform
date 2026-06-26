@@ -1,0 +1,83 @@
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.register-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.register-container {
+  background-color: #f4f4f4;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 340px;
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.register-container input,
+.register-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+  background-color: #0055aa;
+}
+
+.error-banner {
+  background-color: #ffcccc;
+  color: #a10000;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.field-error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  display: block;
+}
+
+.login-redirect {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-redirect span {
+  color: #0055aa;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-redirect span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+.carpentry-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #0d1b2a;
+}
+
+/* Header */
+.carpentry-header {
+  background: #111;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.carpentry-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/* Content */
+.carpentry-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.carpentry-title {
+  font-size: 22px;
+  color: #b22222;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Layout */
+.carpentry-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Text */
+.carpentry-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.carpentry-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carpentry-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.carpentry-text h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.carpentry-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Images */
+.carpentry-images {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.carpentry-images img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}

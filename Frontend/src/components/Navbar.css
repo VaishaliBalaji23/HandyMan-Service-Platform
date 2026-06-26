@@ -1,0 +1,55 @@
+:root {
+  --nav-height: 60px;
+}
+
+nav {
+  background-color: #003366;
+  height: var(--nav-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+nav ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* ✅ Common styles for both Link and button */
+nav ul li a,
+nav ul li .nav-btn {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  /* alignment fix */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 16px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* hover effect */
+nav ul li a:hover,
+nav ul li .nav-btn:hover {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}

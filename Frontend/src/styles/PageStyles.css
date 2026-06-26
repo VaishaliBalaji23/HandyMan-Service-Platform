@@ -1,0 +1,322 @@
+.page-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  min-height: 100vh;
+}
+
+.page-header {
+  margin-bottom: 30px;
+}
+
+.page-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ---------------------- SERVICE GRID SECTION ---------------------- */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.service-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.service-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.book-btn {
+  background: linear-gradient(135deg, #2196f3, #21cbf3);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.book-btn:hover {
+  background: linear-gradient(135deg, #1976d2, #00bcd4);
+}
+
+/* ---------------------- MANAGE USERS TABLE SECTION ---------------------- */
+
+.table-container {
+  margin: 0 auto;
+  max-width: 90%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.user-table th {
+  background: linear-gradient(135deg, #185a9d, #43cea2);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.user-table td {
+  color: #333;
+  text-align: center;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+  background-color: #e8f6f3;
+  transition: 0.2s ease-in-out;
+}
+
+.empty-message {
+  color: #333;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #ff4c4c;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+/* ---------------------- MANAGE BOOKINGS TABLE SECTION ---------------------- */
+
+.table-container {
+  margin: 0 auto;
+  max-width: 90%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.user-table th {
+  background: linear-gradient(135deg, #185a9d, #43cea2);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.user-table td {
+  color: #333;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+  background-color: #e8f6f3;
+  transition: 0.2s ease-in-out;
+}
+
+.empty-message {
+  color: #333;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #ff4c4c;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+/* ---------------- PROFILE SETTINGS TABLE ---------------- */
+
+.profile-table-container {
+  margin: 40px auto;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 25px 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+}
+
+.profile-table th,
+.profile-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-table th {
+  width: 35%;
+  background: linear-gradient(135deg, #185a9d, #43cea2);
+  color: #fff;
+  border-radius: 8px 0 0 8px;
+}
+
+.profile-table td {
+  background: #f9f9f9;
+  color: #333;
+  border-radius: 0 8px 8px 0;
+}
+
+.profile-table tr:last-child th,
+.profile-table tr:last-child td {
+  border-bottom: none;
+}
+
+.profile-table tr:hover td {
+  background-color: #e8f6f3;
+  transition: 0.2s ease-in-out;
+}
+
+.error-banner {
+  background-color: #ff4c4c;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  width: 60%;
+  font-weight: 600;
+}
+/* ---------------- BOOKING HISTORY TABLE ---------------- */
+
+.history-table-container {
+  margin: 40px auto;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 25px 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+}
+
+.history-table th,
+.history-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-table th {
+  background: linear-gradient(135deg, #185a9d, #43cea2);
+  color: #fff;
+  font-weight: 600;
+}
+
+.history-table td {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.history-table tr:hover td {
+  background-color: #e8f6f3;
+  transition: 0.2s ease-in-out;
+}
+
+/* Status badges */
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
+
+.status-badge.confirmed {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+.status-badge.pending {
+  background: linear-gradient(135deg, #fbc02d, #ff9800);
+}
+
+.status-badge.cancelled {
+  background: linear-gradient(135deg, #e53935, #b71c1c);
+}
