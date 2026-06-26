@@ -1,10 +1,10 @@
-# 🛠️ HandyMan Service Platform
+# HandyMan Service Platform
 
 A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that connects customers with skilled professionals for household repair and maintenance services. The platform enables users to browse services, book appointments, and manage bookings through an intuitive interface.
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 The HandyMan Service Platform is designed to simplify the process of finding and booking trusted service professionals for various household needs such as electrical work, plumbing, painting, carpentry, cleaning, and more.
 
@@ -12,7 +12,7 @@ The application provides separate functionalities for customers and administrato
 
 ---
 
-## ✨ Features
+## Features
 
 ### Customer
 - User Registration and Login
@@ -53,7 +53,7 @@ The application provides separate functionalities for customers and administrato
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 HandyMan-Service-Platform/
@@ -82,7 +82,7 @@ HandyMan-Service-Platform/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Clone the Repository
 
@@ -140,7 +140,7 @@ npm start
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Online Payment Integration
 - Service Provider Ratings & Reviews
@@ -151,7 +151,7 @@ npm start
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 This project helped me gain practical experience in:
 
@@ -167,7 +167,7 @@ This project helped me gain practical experience in:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Vaishali B**
 
@@ -175,8 +175,4 @@ Integrated M.Sc. Software Systems
 
 GitHub: https://github.com/VaishaliBalaji23
 
-LinkedIn: *(Add your LinkedIn profile URL here)*
 
----
-
-## ⭐ If you found this project useful, consider giving it a star!
