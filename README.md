@@ -30,7 +30,7 @@ The application provides separate functionalities for customers and administrato
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React.js
@@ -127,7 +127,7 @@ PORT=5000
 ### Run Backend
 
 ```bash
-npm start
+node server.js
 ```
 
 ---
